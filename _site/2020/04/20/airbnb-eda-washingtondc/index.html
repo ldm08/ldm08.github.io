@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Airbnb Washington D.C. EDA</title>
+  <meta name="description" content="">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2020/04/20/airbnb-eda-washingtondc/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Airbnb Washington D.C. EDA">
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="http://localhost:4000/2020/04/20/airbnb-eda-washingtondc/">
+  <meta property="og:description" content="">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Airbnb Washington D.C. EDA">
+  <meta name="twitter:description" content="">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">data science musings</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="https://github.com/ldm08">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Shopping for Airbnbs at the Mall?</h1>
+    <h2><i>Taking an exploratory dive into Washington D.C. Airbnb data</i></h2>
+
+  </header>
+
+  <div class="post-content">
+
+
+<h3> Background </h3>
+<p>Now with 7 million current listings, “accessible in 62 languages across 220+ countries and regions”, Airbnb has been gaining popularity since its start in 2008. It is the Uber of the hospitality industry, allowing property owners to list their space and take full control of pricing.
+<p>Part of the Inside Airbnb project, Airbnb offers data for cities all over the world. I decided to choose Washington D.C. due to its history, art, culture, and attractions for every type of visitor. Made available to me were review, listing, and host data.</p>
+<p>The aim of this post is to delve into the Washington D.C. Airbnb market to find out more about the types of listings, the kind of hosts running businesses, and the reviews Airbnb-ers leave from their experiences. Now, let’s see what we find.</p>
+
+
+<h3>Part I: Properties & Pricing</h3>
+
+<div>
+<img src="/../../table1.png" width="500" height="600">
+</div>
+<div>
+<p>For the bottom 95% of listings, we see neighborhood averages range from $83 to $186. Among the 39 neighborhoods in the listings data, Georgetown, Southwest/Waterfront, and Spring Valley are the most expensive.</p>
+<p>While remaining within the top 10 most expensive neighborhoods, you can still save an upwards of $50–100/night by choosing a less expensive offering in a local neighborhood. When comparing the 10 most expensive neighborhoods to the 10 most affordable neighborhoods, you can potentially save double by choosing an average-priced Airbnb out of the lower-priced tier of neighborhoods.</p>
+<p>The table reveals that 9 of the 10 most expensive neighborhoods also have the biggest interquartile ranges, which means you can still find a reasonably priced listing in an expensive area. With higher-priced neighborhoods having wider price ranges, the potential exists for an affordable Airbnb in an upscale neighborhood.</p></div>
+
+
+<h3>How expensive are the top 25% of listings?</h3> 
+<p>The top quartile of prices start around $200 and climb all the way up to a whopping $10,000! But in terms of bedroom count, we see the priciest options are not necessarily the largest. The correlation between bedrooms and price is close to zero.</p>
+
+
+<div>
+
+<iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~lawrencedugom/6.embed"></iframe>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
