@@ -22,7 +22,7 @@ name                     : "Lawrence Dugom"
 description              : "Reseach and programming blog"
 url                      : "https://ldm08.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : ldm08/ldm08.github.io
+repository               : ldm08/dm08.github.io
 teaser                   : "/images/la jolla.png"
 logo                     : #""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
