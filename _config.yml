@@ -9,7 +9,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#remote_theme             : "minimal-mistakes-jekyll"
+remote_theme             : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -22,7 +22,7 @@ name                     : "Lawrence Dugom"
 description              : "Reseach and programming blog"
 url                      : "https://ldm08.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : ldm08/dm08.github.io
+repository               : ldm08/ldm08.github.io
 teaser                   : "/images/la jolla.png"
 logo                     : #""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
