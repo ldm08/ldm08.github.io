@@ -11,18 +11,18 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "data mining with lawrence"
+title                    : "data science musings"
 title_separator          : "|"
 subtitle                 :  
 name                     : "Lawrence Dugom"
 description              : "Reseach and programming blog"
 url                      : "https://ldm08.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : #
+repository               : ldm08/ldm08.github.io
 teaser                   : "/images/la jolla.png"
 logo                     : #""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -296,4 +296,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
