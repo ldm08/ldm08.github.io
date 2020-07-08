@@ -15,19 +15,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-<<<<<<< HEAD
-<<<<<<< HEAD
-title                    : "blind spot analytics"
-=======
-title                    : "data mining with lawrence"
->>>>>>> parent of 577096c... Update _config.yml
-title_separator          : "|"
-subtitle                 :  
-=======
 title                    : "data science musings"
 title_separator          : "-"
-subtitle                 : #site tagline that appears below site title in masthead
->>>>>>> parent of 9b2780b... make first post
+subtitle                 : "practical statistics and data science"
 name                     : "Lawrence Dugom"
 description              : #"An amazing website."
 url                      : "https://ldm08.github.io"
