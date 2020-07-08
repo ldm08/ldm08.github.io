@@ -11,18 +11,22 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
+<<<<<<< HEAD
 title                    : "blind spot analytics"
+=======
+title                    : "data mining with lawrence"
+>>>>>>> parent of 577096c... Update _config.yml
 title_separator          : "|"
 subtitle                 :  
 name                     : "Lawrence Dugom"
 description              : "Reseach and programming blog"
 url                      : "https://ldm08.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : ldm08/ldm08.github.io
+repository               : #
 teaser                   : "/images/la jolla.png"
 logo                     : #""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -296,3 +300,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
