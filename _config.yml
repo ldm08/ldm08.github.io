@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-
-# Theme Settings
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-<<<<<<< HEAD
 #theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -26,24 +14,6 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ldm08/ldm08.github.io
 teaser                   : "/images/la jolla.png"
 logo                     : #""
-=======
-theme                    : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "en-US"
-title                    : "data science musings"
-title_separator          : "-"
-subtitle                 : "practical statistics and data science"
-name                     : "Lawrence Dugom"
-description              : #"An amazing website."
-url                      : "https://ldm08.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/bio-photo.jpg"
->>>>>>> fcbd56dd3e82fed00ead569850f28dae61d1a39b
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 50
@@ -232,10 +202,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
-=======
-theme: jekyll-whiteglass
-theme: jekyll-whiteglass
->>>>>>> parent of 59680b1... minimal mistakes update
+
 plugins:
   - jekyll-archives
   - jekyll-paginate
