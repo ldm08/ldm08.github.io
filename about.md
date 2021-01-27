@@ -6,12 +6,12 @@ permalink: /about/
 author_profile: true
 ---
 
-Software Engineer
+Software Engineer:
 	 Wholesale Payments at J.P. Morgan
 
-B.S. in Statistics and Analytics 
+B.S. in Statistics and Analytics: 
 	 UNC Chapel Hill
 
-Languages/Frameworks
-	Python, Spark, SQL, R, bash
+Favorite Libraries/Frameworks:
+	Pyspark, Plotly
 

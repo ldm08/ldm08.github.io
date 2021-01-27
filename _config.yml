@@ -1,6 +1,6 @@
 #theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "plum" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -84,13 +84,13 @@ analytics:
 author:
   name             : "Lawrence Dugom"
   avatar           : "/images/bio.JPG"
-  bio              : "investment researcher and data scientist"
+  bio              : "software engineer"
   location         : "New York, NY"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "ldugom@icloud.com"
+      url: "bronslakers@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ldm08"
